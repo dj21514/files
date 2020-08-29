@@ -1,0 +1,42 @@
+System:    Host: jarvis Kernel: 4.15.0-50-generic x86_64 bits: 64 gcc: 7.3.0
+           Desktop: MATE 1.20.1 (Gtk 3.22.30-1ubuntu3) Distro: Ubuntu 18.04.2 LTS
+Machine:   Device: server System: Lenovo product: ThinkSystem SR650 -[7X06CTO1WW]- v: 07 serial: N/A
+           Mobo: Lenovo model: -[7X06CTO1WW]- serial: N/A UEFI: Lenovo v: -[IVE126O-1.41]- date: 10/30/2018
+CPU(s):    2 20 core Intel Xeon Gold 6148s (-MT-MCP-SMP-) arch: Skylake rev.4 cache: 56320 KB
+           flags: (lm nx sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx) bmips: 192000
+           clock speeds: max: 3113 MHz 1: 3100 MHz 2: 3108 MHz 3: 3096 MHz 4: 3105 MHz 5: 3104 MHz 6: 3111 MHz
+           7: 3107 MHz 8: 3107 MHz 9: 3105 MHz 10: 3104 MHz 11: 3109 MHz 12: 3109 MHz 13: 3106 MHz 14: 3108 MHz
+           15: 3108 MHz 16: 3105 MHz 17: 3104 MHz 18: 3107 MHz 19: 3107 MHz 20: 3100 MHz 21: 3104 MHz
+           22: 3103 MHz 23: 3108 MHz 24: 3101 MHz 25: 3106 MHz 26: 3103 MHz 27: 3108 MHz 28: 3107 MHz
+           29: 3110 MHz 30: 3106 MHz 31: 3103 MHz 32: 3106 MHz 33: 3101 MHz 34: 3104 MHz 35: 3107 MHz
+           36: 3104 MHz 37: 3105 MHz 38: 3107 MHz 39: 3102 MHz 40: 3110 MHz 41: 3101 MHz 42: 3100 MHz
+           43: 3099 MHz 44: 3109 MHz 45: 3102 MHz 46: 3100 MHz 47: 3101 MHz 48: 3110 MHz 49: 3110 MHz
+           50: 3104 MHz 51: 3105 MHz 52: 3110 MHz 53: 3108 MHz 54: 3108 MHz 55: 3106 MHz 56: 3113 MHz
+           57: 3100 MHz 58: 3108 MHz 59: 3107 MHz 60: 3105 MHz 61: 3108 MHz 62: 3107 MHz 63: 3105 MHz
+           64: 3105 MHz 65: 3100 MHz 66: 3111 MHz 67: 3107 MHz 68: 3103 MHz 69: 3108 MHz 70: 3108 MHz
+           71: 3108 MHz 72: 3107 MHz 73: 3106 MHz 74: 3105 MHz 75: 3104 MHz 76: 3106 MHz 77: 3104 MHz
+           78: 3109 MHz 79: 3110 MHz 80: 3105 MHz
+Graphics:  Card-1: Matrox Systems MGA G200e [Pilot] ServerEngines (SEP1) bus-ID: 02:00.0
+           Card-2: NVIDIA GV100GL [Tesla V100 PCIe 32GB] bus-ID: 2f:00.0
+           Display Server: x11 (X.Org 1.19.6 )
+           drivers: (unloaded: fbdev,vesa) FAILED: modesetting,nvidia,nouveau
+           Resolution: 1280x960@60.00hz
+           OpenGL: renderer: llvmpipe (LLVM 7.0, 256 bits) version: 3.3 Mesa 18.2.8 Direct Render: Yes
+Network:   Card-1: Intel Ethernet Connection X722 for 1GbE driver: i40e v: 2.1.14-k bus-ID: 08:00.0
+           IF: eno1 state: down mac: 7c:d3:0a:6a:b2:b8
+           Card-2: Intel Ethernet Connection X722 for 1GbE driver: i40e v: 2.1.14-k bus-ID: 08:00.1
+           IF: eno2 state: up speed: 1000 Mbps duplex: full mac: 7c:d3:0a:6a:b2:b9
+           Card-3: Intel Ethernet Controller X710 for 10GbE SFP+ driver: i40e v: 2.1.14-k bus-ID: 58:00.0
+           IF: enp88s0f0 state: down mac: 68:05:ca:9a:53:2c
+           Card-4: Intel Ethernet Controller X710 for 10GbE SFP+ driver: i40e v: 2.1.14-k bus-ID: 58:00.1
+           IF: enp88s0f1 state: down mac: 68:05:ca:9a:53:2d
+Drives:    HDD Total Size: 36396.0GB (0.1% used)
+           ID-1: /dev/sda model: RAID_530 size: 399.0GB
+           ID-2: /dev/sdb model: RAID_530 size: 35997.0GB
+Partition: ID-1: / size: 137G used: 21G (17%) fs: ext4 dev: /dev/sda2
+           ID-2: /home size: 33T used: 153M (1%) fs: ext4 dev: /dev/sdb1
+RAID:      No RAID devices: /proc/mdstat, md_mod kernel module present
+Sensors:   System Temperatures: cpu: 37.0C mobo: N/A
+           Fan Speeds (in rpm): cpu: N/A
+Info:      Processes: 837 Uptime: 11 min Memory: 1744.9/515535.7MB Init: systemd runlevel: 5 Gcc sys: 7.4.0
+           Client: Shell (bash 4.4.191) inxi: 2.3.56
